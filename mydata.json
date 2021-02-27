@@ -1,0 +1,1048 @@
+
+	var newlbl=[
+		   {
+                                "content":" ",
+                                "className": "red",
+				"xOffset":1,
+				"yOffset":1
+                   },
+		   {
+
+                                "content":" ",
+                                "className": "red"
+                   },
+		   {
+                                "content":" ",
+                                "className": "red"
+                   },
+		   {
+                                "content":" ",
+                                "className": "red"
+                   },
+		   {
+                                "content":" ",
+                                "className": "red"
+                   },
+		   {
+                                "content":" ",
+                                "className": "red"
+                   },
+		   {
+                                "content":" ",
+                                "className": "red"
+                   }
+
+	];
+
+	var lbl=[
+			{
+ 				content: "Algo",
+				xOffset: -15,
+    				yOffset: 242
+  			},
+			{
+			  	content: "Sim",
+    				className: "red",
+    				xOffset: -15,
+    				yOffset: 207
+			},
+			{
+    				content: "CMGT",
+    				xOffset: -20,
+    				yOffset: 276
+			},	
+
+   			{
+    				content: "CN",
+    				className: "red",
+    				xOffset: -15,
+    				yOffset: 190
+			},	
+
+ 			{
+     	 			content: "DS",
+     			 	className: "red",
+      				xOffset: -15,
+      				yOffset: 311
+			},
+			{
+      				content: "OS",
+      				className: "red",
+      				xOffset: -15,
+      				yOffset: 259
+        		},
+			{
+        
+				content: "Algo",
+                                className: "red",
+                                xOffset: -15,
+                                yOffset: 190
+                        },
+
+ 			{
+       				content: "Sim",
+       				className: "red",
+       				xOffset: -15,
+       				yOffset: 259
+			},
+			{
+      				content: "CMGT",
+       				className: "red",
+       				xOffset: -20,
+       				yOffset: 311
+			},
+ 			{
+       				content: "CN",
+       				className: "red",
+       				xOffset: -15,
+       				yOffset: 207
+			},
+			{
+       				content: "DS",
+       				className: "red",
+       				xOffset: -15,
+       				yOffset: 345
+			},
+			{
+       				content: "OS",
+       				className: "red",
+       				xOffset: -15,
+       				yOffset: 108
+			},
+			{
+                                content: "CG",
+                                className: "red",
+                                xOffset: -15,
+                                yOffset: 345 
+			},
+
+		{content:55},{content:60},{content:70},{content:75},{content:80},{content:90},{content:100}
+
+		];
+
+	var groups = new vis.DataSet();
+	groups.add({id: 0, content:'group0', className:'custom-style1',  options: {
+              drawPoints: {
+                  style: 'square',
+		      size:10// square, circle
+              },	
+              shaded: {
+                  orientation: 'bottom' // top, bottom
+              }
+		}})
+	groups.add({id: 1, content: "group1", className:'custom-style2', options: {
+                drawPoints: {
+                    style: 'circle',
+			size:10// square, circle
+                },
+                shaded: {
+                    orientation: 'bottom' // top, bottom
+                }
+		}})
+	groups.add({id: 2, content: "group2",  className:'custom-style3', options: {
+                drawPoints: {
+                    style: 'circle',
+			size:10
+                },
+                shaded: {
+                    orientation: 'bottom' // top, bottom
+                }
+		}})	
+
+	groups.add({id: 3, content: "group3",  className:'custom-style4', options: {
+                 drawPoints: {
+                     style: 'circle',
+                         size:10
+                 },
+                 shaded: {
+                     orientation: 'bottom' // top, bottom
+                 }
+		 }})
+
+		 groups.add({id: 4, content: "group4",  className:'custom-style5', options: {
+                // drawPoints: {
+                  //   style: 'circle',
+                    //     size:10
+                // },
+                 shaded: {
+                     orientation: 'bottom' // top, bottom
+                 }
+                 }})
+
+	
+	var data=[
+        {
+        name:'kunal gholve',
+        Roll_No: '17101',
+        image: 'file:///home/kunal/Downloads/st1.jpg',
+        marks:[
+		{x: '2014-06-11', y: 70, group:0,label: lbl[0]},
+		{x: '2014-06-13', y: 60, group:0,label: lbl[1]},
+                {x: '2014-06-15', y: 80, group:1,label: lbl[2]},
+                {x: '2014-06-17', y: 55, group:1,label: lbl[3]},
+                {x: '2014-06-19', y: 90, group:2,label: lbl[4]},
+                {x: '2014-06-21', y: 75, group:2,label: lbl[5]},
+		{x: '2014-06-23', y: 100, group:1,label: lbl[12]},
+		{x: '2014-06-11', y: 0.01,group:1,label: lbl[15]},
+		{x: '2014-06-13', y: 0.01, group:0,label: lbl[14]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[17]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[13]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[16]},
+                {x: '2014-06-23', y: 0.01, group:1,label: lbl[19]},
+		{x: '2014-06-26', y: 100,  group:4}
+
+		]
+     	},
+  
+   	{
+	name: 'deepak parekar',
+       	Roll_No: '17102',
+      	image: 'file:///home/kunal/Downloads/st2.jpg',
+      	marks: [ 
+                 {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
+                 {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
+                 {x: '2014-06-15', y: 90, group:2,label: lbl[8]},
+                 {x: '2014-06-17', y: 60, group:3,label: lbl[9]},
+                 {x: '2014-06-19', y: 100, group:0,label: lbl[10]},
+		 {x: '2014-06-11', y:0.01, group:2,label:lbl[13]},
+		 {x: '2014-06-13', y:0.01, group:3,label: lbl[16]},
+                 {x: '2014-06-15', y:0.01, group:2,label: lbl[18]},
+                 {x: '2014-06-17', y:0.01, group:3,label: lbl[14]},
+                 {x: '2014-06-19', y:0.01, group:0,label: lbl[19]},
+		 {x: '2014-06-22', y: 100,  group:4}
+
+                 ]
+	},
+
+	{
+         name: 'kiran pandey',
+         Roll_No: '17103',
+         image: 'file:///home/kunal/Downloads/st3.jpg',
+         marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]}	,
+		{x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+		{x: '2014-06-26', y: 100,  group:4}
+
+		]
+	},
+	{
+         name: 'sagar chopde',
+         Roll_No: '17104',
+         image: 'file:///home/kunal/Downloads/st4.jpg',
+         marks:[
+                {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
+                {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[18]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[15]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+        },
+
+		{
+        name: 'nikhil Jadhav',
+        Roll_No: '17105',
+        image: 'file:///home/kunal/Downloads/st5.jpg',
+	marks: [
+                 {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
+                 {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
+                 {x: '2014-06-15', y: 90, group:2,label: lbl[8]},
+                 {x: '2014-06-17', y: 60, group:3,label: lbl[9]},
+                 {x: '2014-06-19', y: 100, group:0,label: lbl[10]},
+                 {x: '2014-06-11', y:0.01, group:2,label:lbl[13]},
+                 {x: '2014-06-13', y:0.01, group:3,label: lbl[16]},
+                 {x: '2014-06-15', y:0.01, group:2,label: lbl[18]},
+                 {x: '2014-06-17', y:0.01, group:3,label: lbl[14]},
+                 {x: '2014-06-19', y:0.01, group:0,label: lbl[19]},
+                 {x: '2014-06-26', y: 100,  group:4}
+
+                 ]
+        },
+	{
+        name:'nayan lonkar',
+        Roll_No: '17106',
+        image: 'file:///home/kunal/Downloads/st6.jpg',
+	 marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+        },
+	
+	 {
+         name: 'anand pandey',
+         Roll_No: '17107',
+         image: 'file:///home/kunal/Downloads/st7.jpg',
+         marks:[
+                {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
+                {x: '2014-06-15', y: 80, group:1,label: lbl[2]},
+                {x: '2014-06-17', y: 55, group:1,label: lbl[3]},
+                {x: '2014-06-19', y: 90, group:2,label: lbl[4]},
+                {x: '2014-06-21', y: 75, group:2,label: lbl[5]},
+                {x: '2014-06-23', y: 100, group:1,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[15]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[14]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[17]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[13]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[16]},
+                {x: '2014-06-23', y: 0.01, group:1,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+	 },
+	
+	 {
+        name: 'dipesh khuswah',
+        Roll_No: '17108',
+        image: 'file:///home/kunal/Downloads/st8.jpg',
+         marks:[
+                {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
+                {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[18]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[15]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+	 },
+	
+	{
+        name:'ajay chopde',
+        Roll_No: '17109',
+        image: 'file:///home/kunal/Downloads/st9.jpg',
+         marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+	},
+	 {
+         name: 'mangesh sonawane',
+         Roll_No: '17110',
+         image: 'file:///home/kunal/Downloads/st10.jpg',
+         marks:[
+                {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
+                {x: '2014-06-15', y: 80, group:1,label: lbl[2]},
+                {x: '2014-06-17', y: 55, group:1,label: lbl[3]},
+                {x: '2014-06-19', y: 90, group:2,label: lbl[4]},
+                {x: '2014-06-21', y: 75, group:2,label: lbl[5]},
+                {x: '2014-06-23', y: 100, group:1,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[15]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[14]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[17]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[13]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[16]},
+                {x: '2014-06-23', y: 0.01, group:1,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	 },
+
+	 {
+        name: 'depak saha',
+        Roll_No: '17111',
+        image: 'file:///home/kunal/Downloads/st11.jpg',
+          marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	 },
+	 {
+        name: 'brijesh jadhav',
+        Roll_No: '17112',
+        image: 'file:///home/kunal/Downloads/st12.jpg',
+         marks:[
+                {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
+                {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[18]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[15]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	 },
+	 {
+        name:'vijay rathod',
+        Roll_No: '17113',
+        image: 'file:///home/kunal/Downloads/st13.jpg',
+        marks:[
+                {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
+                {x: '2014-06-15', y: 80, group:1,label: lbl[2]},
+                {x: '2014-06-17', y: 55, group:1,label: lbl[3]},
+                {x: '2014-06-19', y: 90, group:2,label: lbl[4]},
+                {x: '2014-06-21', y: 75, group:2,label: lbl[5]},
+                {x: '2014-06-23', y: 100, group:1,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[15]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[14]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[17]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[13]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[16]},
+                {x: '2014-06-23', y: 0.01, group:1,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	 },
+	  {
+         name: 'pushpa shelar',
+         Roll_No: '17114',
+	image: 'file:///home/kunal/Downloads/st14.jpg',
+         marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	  },
+
+	  {
+        name: 'vishal kokne',
+        Roll_No: '17115',
+        image: 'file:///home/kunal/Downloads/st15.jpg',
+         marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	  },
+	 {
+        name:'prince kumar',
+        Roll_No: '17116',
+        image: 'file:///home/kunal/Downloads/st16.jpg',
+	 marks:[
+                {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
+                {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[18]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[15]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+	 },
+
+	  {
+        name: 'aryan dixit',
+        Roll_No: '17117',
+        image: 'file:///home/kunal/Downloads/st17.jpg',
+         marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	  },
+	    {
+        name:'vaibhav ghadge',
+        Roll_No: '17118',
+        image: 'file:///home/kunal/Downloads/st18.jpg',
+	  marks:[
+                {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
+                {x: '2014-06-15', y: 80, group:1,label: lbl[2]},
+                {x: '2014-06-17', y: 55, group:1,label: lbl[3]},
+                {x: '2014-06-19', y: 90, group:2,label: lbl[4]},
+                {x: '2014-06-21', y: 75, group:2,label: lbl[5]},
+                {x: '2014-06-23', y: 100, group:1,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[15]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[14]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[17]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[13]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[16]},
+                {x: '2014-06-23', y: 0.01, group:1,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+                ]
+
+        },
+	   {
+        name: 'pawan yewle',
+        Roll_No: '17119',
+        image: 'file:///home/kunal/Downloads/st19.jpg',
+	  marks:[
+                {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
+                {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[18]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[15]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+                ]
+	   },
+	 {
+         name: 'vishal pal',
+         Roll_No: '17120',
+         image: 'file:///home/kunal/Downloads/st20.jpg',
+	 marks:[
+                {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
+                {x: '2014-06-15', y: 80, group:1,label: lbl[2]},
+                {x: '2014-06-17', y: 55, group:1,label: lbl[3]},
+                {x: '2014-06-19', y: 90, group:2,label: lbl[4]},
+                {x: '2014-06-21', y: 75, group:2,label: lbl[5]},
+                {x: '2014-06-23', y: 100, group:1,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[15]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[14]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[17]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[13]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[16]},
+                {x: '2014-06-23', y: 0.01, group:1,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	 },
+	  {
+        name:'vijay jaha',
+        Roll_No: '17121',
+        image: 'file:///home/kunal/Downloads/st21.jpg',
+	 marks: [
+                 {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
+                 {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
+                 {x: '2014-06-15', y: 90, group:2,label: lbl[8]},
+                 {x: '2014-06-17', y: 60, group:3,label: lbl[9]},
+                 {x: '2014-06-19', y: 100, group:0,label: lbl[10]},
+                 {x: '2014-06-11', y:0.01, group:2,label:lbl[13]},
+                 {x: '2014-06-13', y:0.01, group:3,label: lbl[16]},
+                 {x: '2014-06-15', y:0.01, group:2,label: lbl[18]},
+                 {x: '2014-06-17', y:0.01, group:3,label: lbl[14]},
+                 {x: '2014-06-19', y:0.01, group:0,label: lbl[19]},
+                 {x: '2014-06-26', y: 100,  group:4}
+
+                 ]
+	  },
+
+	   {
+        name: 'deepak pawar',
+        Roll_No: '17122',
+        image: 'file:///home/kunal/Downloads/st22.jpg',
+         marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	   },
+
+  	{
+        name:'sharad jadhav',
+        Roll_No: '17123',
+        image: 'file:///home/kunal/Downloads/st23.jpg',
+	 marks: [
+                 {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
+                 {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
+                 {x: '2014-06-15', y: 90, group:2,label: lbl[8]},
+                 {x: '2014-06-17', y: 60, group:3,label: lbl[9]},
+                 {x: '2014-06-19', y: 100, group:0,label: lbl[10]},
+                 {x: '2014-06-11', y:0.01, group:2,label:lbl[13]},
+                 {x: '2014-06-13', y:0.01, group:3,label: lbl[16]},
+                 {x: '2014-06-15', y:0.01, group:2,label: lbl[18]},
+                 {x: '2014-06-17', y:0.01, group:3,label: lbl[14]},
+                 {x: '2014-06-19', y:0.01, group:0,label: lbl[19]},
+                 {x: '2014-06-26', y: 100,  group:4}
+
+                 ]
+	},
+	 {
+         name: 'nikhil jadhav',
+         Roll_No: '17124',
+         image: 'file:///home/kunal/Downloads/st24.jpg',
+	  marks:[
+                {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
+                {x: '2014-06-15', y: 80, group:1,label: lbl[2]},
+                {x: '2014-06-17', y: 55, group:1,label: lbl[3]},
+                {x: '2014-06-19', y: 90, group:2,label: lbl[4]},
+                {x: '2014-06-21', y: 75, group:2,label: lbl[5]},
+                {x: '2014-06-23', y: 100, group:1,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[15]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[14]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[17]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[13]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[16]},
+                {x: '2014-06-23', y: 0.01, group:1,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+                ]
+
+	 },
+	     {
+        name: 'shubham natekar',
+        Roll_No: '17125',
+        image: 'file:///home/kunal/Downloads/st25.jpg',
+         marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+	     },
+
+	 {
+         name: 'nikhil jadhav',
+         Roll_No: '17126',
+         image: 'file:///home/kunal/Downloads/st26.jpg',
+          marks:[
+                {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
+                {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[18]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[15]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+	 },
+
+	 {
+        name:'sharad jadhav',
+        Roll_No: '17127',
+        image: 'file:///home/kunal/Downloads/st27.jpg',
+        marks: [
+                 {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
+                 {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
+                 {x: '2014-06-15', y: 90, group:2,label: lbl[8]},
+                 {x: '2014-06-17', y: 60, group:3,label: lbl[9]},
+                 {x: '2014-06-19', y: 100, group:0,label: lbl[10]},
+                 {x: '2014-06-11', y:0.01, group:2,label:lbl[13]},
+                 {x: '2014-06-13', y:0.01, group:3,label: lbl[16]},
+                 {x: '2014-06-15', y:0.01, group:2,label: lbl[18]},
+                 {x: '2014-06-17', y:0.01, group:3,label: lbl[14]},
+                 {x: '2014-06-19', y:0.01, group:0,label: lbl[19]},
+                 {x: '2014-06-26', y: 100,  group:4}
+
+                 ]
+	 },
+
+	     {
+        name: 'namdev surwase',
+        Roll_No: '17128',
+        image: 'file:///home/kunal/Downloads/st28.jpg',
+	 marks:[
+                {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
+                {x: '2014-06-15', y: 80, group:1,label: lbl[2]},
+                {x: '2014-06-17', y: 55, group:1,label: lbl[3]},
+                {x: '2014-06-19', y: 90, group:2,label: lbl[4]},
+                {x: '2014-06-21', y: 75, group:2,label: lbl[5]},
+                {x: '2014-06-23', y: 100, group:1,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[15]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[14]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[17]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[13]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[16]},
+                {x: '2014-06-23', y: 0.01, group:1,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+	      },
+
+	 {
+        name:'sharad jadhav',
+        Roll_No: '17129',
+        image: 'file:///home/kunal/Downloads/st29.jpg',
+        marks:[
+                {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
+                {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[18]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[15]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+	 },
+
+
+	      {
+        name: 'shubham pawar',
+        Roll_No: '17130',
+        image: 'file:///home/kunal/Downloads/st30.jpg',
+         marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+	      },
+
+ 	{
+         name: 'nikhil jadhav',
+         Roll_No: '17131',
+         image: 'file:///home/kunal/Downloads/st31.jpg',
+	  marks:[
+                {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
+                {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[18]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[15]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+        },
+	
+	      {
+        name: 'ratnesh mether',
+        Roll_No: '17132',
+        image: 'file:///home/kunal/Downloads/st32.jpg',
+         marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	      },
+
+	 {
+         name: 'nikhil jadhav',
+         Roll_No: '17133',
+         image: 'file:///home/kunal/Downloads/st33.jpg',
+         marks:[
+                {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
+                {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[18]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[15]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	 },
+
+
+	  {
+        name: 'ratnesh mether',
+        Roll_No: '17134',
+        image: 'file:///home/kunal/Downloads/st34.jpg',
+	 marks:[
+                {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
+                {x: '2014-06-15', y: 80, group:1,label: lbl[2]},
+                {x: '2014-06-17', y: 55, group:1,label: lbl[3]},
+                {x: '2014-06-19', y: 90, group:2,label: lbl[4]},
+                {x: '2014-06-21', y: 75, group:2,label: lbl[5]},
+                {x: '2014-06-23', y: 100, group:1,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[15]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[14]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[17]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[13]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[16]},
+                {x: '2014-06-23', y: 0.01, group:1,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	  },
+
+	  {
+        name:'sharad jadhav',
+        Roll_No: '17135',
+        image: 'file:///home/kunal/Downloads/st35.jpg',
+	 marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	  },
+
+	 {
+        name: 'shubham bendsure',
+        Roll_No: '17136',
+        image: 'file:///home/kunal/Downloads/st36.jpg',
+	marks: [
+                 {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
+                 {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
+                 {x: '2014-06-15', y: 90, group:2,label: lbl[8]},
+                 {x: '2014-06-17', y: 60, group:3,label: lbl[9]},
+                 {x: '2014-06-19', y: 100, group:0,label: lbl[10]},
+                 {x: '2014-06-11', y:0.01, group:2,label:lbl[13]},
+                 {x: '2014-06-13', y:0.01, group:3,label: lbl[16]},
+                 {x: '2014-06-15', y:0.01, group:2,label: lbl[18]},
+                 {x: '2014-06-17', y:0.01, group:3,label: lbl[14]},
+                 {x: '2014-06-19', y:0.01, group:0,label: lbl[19]},
+                 {x: '2014-06-26', y: 100,  group:4}
+
+		]
+
+	 },
+
+	  {
+         name: 'nikhil jadhav',
+         Roll_No: '17137',
+	 image: 'file:///home/kunal/Downloads/st37.jpg',
+	  marks:[
+                {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
+                {x: '2014-06-15', y: 80, group:1,label: lbl[2]},
+                {x: '2014-06-17', y: 55, group:1,label: lbl[3]},
+                {x: '2014-06-19', y: 90, group:2,label: lbl[4]},
+                {x: '2014-06-21', y: 75, group:2,label: lbl[5]},
+                {x: '2014-06-23', y: 100, group:1,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[15]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[14]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[17]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[13]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[16]},
+                {x: '2014-06-23', y: 0.01, group:1,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	  },
+
+
+	  {
+        name: 'ratnesh mether',
+        Roll_No: '17138',
+        image: 'file:///home/kunal/Downloads/st38.jpg',
+ 	marks:[
+                {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
+                {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-21', y: 90, group:2,label: lbl[8]} ,
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[17]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[13]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-21', y: 0.01, group:2,label: lbl[18]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	  },
+
+	  {
+        name:'sharad jadhav',
+        Roll_No: '17139',
+        image: 'file:///home/kunal/Downloads/st39.jpg',
+         marks: [
+                 {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
+                 {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
+                 {x: '2014-06-15', y: 90, group:2,label: lbl[8]},
+                 {x: '2014-06-17', y: 60, group:3,label: lbl[9]},
+                 {x: '2014-06-19', y: 100, group:0,label: lbl[10]},
+                 {x: '2014-06-11', y:0.01, group:2,label:lbl[13]},
+                 {x: '2014-06-13', y:0.01, group:3,label: lbl[16]},
+                 {x: '2014-06-15', y:0.01, group:2,label: lbl[18]},
+                 {x: '2014-06-17', y:0.01, group:3,label: lbl[14]},
+                 {x: '2014-06-19', y:0.01, group:0,label: lbl[19]},
+                 {x: '2014-06-26', y: 100,  group:4}
+
+                ]
+
+	  },
+
+	  {
+        name: 'nihal shardul',
+        Roll_No: '17140',
+        image: 'file:///home/kunal/Downloads/st40.jpg',
+         marks:[
+                {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
+                {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
+                {x: '2014-06-15', y: 60, group:1,label: lbl[9]},
+                {x: '2014-06-17', y: 75, group:1,label: lbl[7]},
+                {x: '2014-06-19', y: 100, group:2,label: lbl[12]},
+                {x: '2014-06-11', y: 0.01,group:1,label: lbl[18]},
+                {x: '2014-06-13', y: 0.01, group:0,label: lbl[15]},
+                {x: '2014-06-15', y: 0.01, group:1,label: lbl[14]},
+                {x: '2014-06-17', y: 0.01, group:1,label: lbl[16]},
+                {x: '2014-06-19', y: 0.01, group:2,label: lbl[19]},
+                {x: '2014-06-26', y: 100,  group:4}
+
+		]
+
+	  }
+	
+	]; 
+

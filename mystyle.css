@@ -1,0 +1,81 @@
+body, html {
+            font-family: sans-serif;
+	    
+           }
+.custom-style1{
+              fill:#FFFF00;
+              fill-opacity:0;
+              stroke-width:2px;
+              stroke: #FF0000;
+              }
+
+.custom-style2 {
+              fill: #f23303;
+              fill-opacity:0;
+              stroke-width:2px;
+              stroke: #ff0004;
+	       }	
+
+.custom-style3 {
+                fill:#00FFFF;
+                fill-opacity:0;
+                stroke-width:2px;
+                stroke:#ff0004;
+		}
+
+.custom-style4 {
+                 fill:#FF1493;
+                 fill-opacity:0;
+                 stroke-width:2px;
+                 stroke:#ff0004;
+                }
+.custom-style5{
+               fill:#FFFFFF;
+               fill-opacity:0;
+               stroke-width:2px;
+               stroke:#FFFFFF;
+               }
+
+.custom-div{
+	       position:relative;
+	       height:100%;
+	       width:100%;
+	   }	
+	
+.custom-div2{
+		  position:relative;
+                  height:400px;
+                  width:80%;
+		  float:left;
+		  overflow-x :auto;
+	          overflow-y :scroll;
+                  }
+
+.custom-div3	{
+                  position:relative;
+                  height:60px;
+                  width:20%;
+                  float:right;
+             	}
+.custom-div4	{
+                  position:absolute;
+		  width:40%;
+                  bottom:-500px;
+                  }
+.custom-div5	{
+                  position:relative;
+		  height:300px;
+                  width:20%;
+		  bottom:-90px;
+		  float:left;
+		  overflow-x :auto;
+		  overflow-y :scroll;
+	  	}
+.custom-div6	{
+                  position:absolute;
+                  bottom:-490px;
+		  right:200px;
+	   	}
+
+
+
