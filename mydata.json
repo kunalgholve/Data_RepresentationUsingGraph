@@ -174,7 +174,7 @@
         {
         name:'kunal gholve',
         Roll_No: '17101',
-        image: 'file:///home/kunal/Downloads/st1.jpg',
+        image: './images/st1.jpg',
         marks:[
 		{x: '2014-06-11', y: 70, group:0,label: lbl[0]},
 		{x: '2014-06-13', y: 60, group:0,label: lbl[1]},
@@ -198,7 +198,7 @@
    	{
 	name: 'deepak parekar',
        	Roll_No: '17102',
-      	image: 'file:///home/kunal/Downloads/st2.jpg',
+      	image: './images/st2.jpg',
       	marks: [ 
                  {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
                  {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
@@ -218,7 +218,7 @@
 	{
          name: 'kiran pandey',
          Roll_No: '17103',
-         image: 'file:///home/kunal/Downloads/st3.jpg',
+         image: './images/st3.jpg',
          marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -239,7 +239,7 @@
 	{
          name: 'sagar chopde',
          Roll_No: '17104',
-         image: 'file:///home/kunal/Downloads/st4.jpg',
+         image: './images/st4.jpg',
          marks:[
                 {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
                 {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
@@ -259,7 +259,7 @@
 		{
         name: 'nikhil Jadhav',
         Roll_No: '17105',
-        image: 'file:///home/kunal/Downloads/st5.jpg',
+        image: './images/st5.jpg',
 	marks: [
                  {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
                  {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
@@ -278,7 +278,7 @@
 	{
         name:'nayan lonkar',
         Roll_No: '17106',
-        image: 'file:///home/kunal/Downloads/st6.jpg',
+        image: './images/st6.jpg',
 	 marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -300,7 +300,7 @@
 	 {
          name: 'anand pandey',
          Roll_No: '17107',
-         image: 'file:///home/kunal/Downloads/st7.jpg',
+         image: './images/st7.jpg',
          marks:[
                 {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
                 {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
@@ -324,7 +324,7 @@
 	 {
         name: 'dipesh khuswah',
         Roll_No: '17108',
-        image: 'file:///home/kunal/Downloads/st8.jpg',
+        image: './images/st8.jpg',
          marks:[
                 {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
                 {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
@@ -344,7 +344,7 @@
 	{
         name:'ajay chopde',
         Roll_No: '17109',
-        image: 'file:///home/kunal/Downloads/st9.jpg',
+        image: './images/st9.jpg',
          marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -365,7 +365,7 @@
 	 {
          name: 'mangesh sonawane',
          Roll_No: '17110',
-         image: 'file:///home/kunal/Downloads/st10.jpg',
+         image: './images/st10.jpg',
          marks:[
                 {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
                 {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
@@ -390,7 +390,7 @@
 	 {
         name: 'depak saha',
         Roll_No: '17111',
-        image: 'file:///home/kunal/Downloads/st11.jpg',
+        image: './images/st11.jpg',
           marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -412,7 +412,7 @@
 	 {
         name: 'brijesh jadhav',
         Roll_No: '17112',
-        image: 'file:///home/kunal/Downloads/st12.jpg',
+        image: './images/st12.jpg',
          marks:[
                 {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
                 {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
@@ -432,7 +432,7 @@
 	 {
         name:'vijay rathod',
         Roll_No: '17113',
-        image: 'file:///home/kunal/Downloads/st13.jpg',
+        image: './images/st13.jpg',
         marks:[
                 {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
                 {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
@@ -456,7 +456,7 @@
 	  {
          name: 'pushpa shelar',
          Roll_No: '17114',
-	image: 'file:///home/kunal/Downloads/st14.jpg',
+	image: './images/st14.jpg',
          marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -479,7 +479,7 @@
 	  {
         name: 'vishal kokne',
         Roll_No: '17115',
-        image: 'file:///home/kunal/Downloads/st15.jpg',
+        image: './images/st15.jpg',
          marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -501,7 +501,7 @@
 	 {
         name:'prince kumar',
         Roll_No: '17116',
-        image: 'file:///home/kunal/Downloads/st16.jpg',
+        image: './images/st16.jpg',
 	 marks:[
                 {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
                 {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
@@ -521,7 +521,7 @@
 	  {
         name: 'aryan dixit',
         Roll_No: '17117',
-        image: 'file:///home/kunal/Downloads/st17.jpg',
+        image: './images/st17.jpg',
          marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -543,7 +543,7 @@
 	    {
         name:'vaibhav ghadge',
         Roll_No: '17118',
-        image: 'file:///home/kunal/Downloads/st18.jpg',
+        image: './images/st18.jpg',
 	  marks:[
                 {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
                 {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
@@ -566,7 +566,7 @@
 	   {
         name: 'pawan yewle',
         Roll_No: '17119',
-        image: 'file:///home/kunal/Downloads/st19.jpg',
+        image: './images/st19.jpg',
 	  marks:[
                 {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
                 {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
@@ -584,7 +584,7 @@
 	 {
          name: 'vishal pal',
          Roll_No: '17120',
-         image: 'file:///home/kunal/Downloads/st20.jpg',
+         image: './images/st20.jpg',
 	 marks:[
                 {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
                 {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
@@ -608,7 +608,7 @@
 	  {
         name:'vijay jaha',
         Roll_No: '17121',
-        image: 'file:///home/kunal/Downloads/st21.jpg',
+        image: './images/st21.jpg',
 	 marks: [
                  {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
                  {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
@@ -628,7 +628,7 @@
 	   {
         name: 'deepak pawar',
         Roll_No: '17122',
-        image: 'file:///home/kunal/Downloads/st22.jpg',
+        image: './images/st22.jpg',
          marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -651,7 +651,7 @@
   	{
         name:'sharad jadhav',
         Roll_No: '17123',
-        image: 'file:///home/kunal/Downloads/st23.jpg',
+        image: './images/st23.jpg',
 	 marks: [
                  {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
                  {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
@@ -670,7 +670,7 @@
 	 {
          name: 'nikhil jadhav',
          Roll_No: '17124',
-         image: 'file:///home/kunal/Downloads/st24.jpg',
+         image: './images/st24.jpg',
 	  marks:[
                 {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
                 {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
@@ -693,7 +693,7 @@
 	     {
         name: 'shubham natekar',
         Roll_No: '17125',
-        image: 'file:///home/kunal/Downloads/st25.jpg',
+        image: './images/st25.jpg',
          marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -715,7 +715,7 @@
 	 {
          name: 'nikhil jadhav',
          Roll_No: '17126',
-         image: 'file:///home/kunal/Downloads/st26.jpg',
+         image: './images/st26.jpg',
           marks:[
                 {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
                 {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
@@ -735,7 +735,7 @@
 	 {
         name:'sharad jadhav',
         Roll_No: '17127',
-        image: 'file:///home/kunal/Downloads/st27.jpg',
+        image: './images/st27.jpg',
         marks: [
                  {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
                  {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
@@ -755,7 +755,7 @@
 	     {
         name: 'namdev surwase',
         Roll_No: '17128',
-        image: 'file:///home/kunal/Downloads/st28.jpg',
+        image: './images/st28.jpg',
 	 marks:[
                 {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
                 {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
@@ -779,7 +779,7 @@
 	 {
         name:'sharad jadhav',
         Roll_No: '17129',
-        image: 'file:///home/kunal/Downloads/st29.jpg',
+        image: './images/st29.jpg',
         marks:[
                 {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
                 {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
@@ -800,7 +800,7 @@
 	      {
         name: 'shubham pawar',
         Roll_No: '17130',
-        image: 'file:///home/kunal/Downloads/st30.jpg',
+        image: './images/st30.jpg',
          marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -822,7 +822,7 @@
  	{
          name: 'nikhil jadhav',
          Roll_No: '17131',
-         image: 'file:///home/kunal/Downloads/st31.jpg',
+         image: './images/st31.jpg',
 	  marks:[
                 {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
                 {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
@@ -842,7 +842,7 @@
 	      {
         name: 'ratnesh mether',
         Roll_No: '17132',
-        image: 'file:///home/kunal/Downloads/st32.jpg',
+        image: './images/st32.jpg',
          marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -865,7 +865,7 @@
 	 {
          name: 'nikhil jadhav',
          Roll_No: '17133',
-         image: 'file:///home/kunal/Downloads/st33.jpg',
+         image: './images/st33.jpg',
          marks:[
                 {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
                 {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
@@ -887,7 +887,7 @@
 	  {
         name: 'ratnesh mether',
         Roll_No: '17134',
-        image: 'file:///home/kunal/Downloads/st34.jpg',
+        image: './images/st34.jpg',
 	 marks:[
                 {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
                 {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
@@ -912,7 +912,7 @@
 	  {
         name:'sharad jadhav',
         Roll_No: '17135',
-        image: 'file:///home/kunal/Downloads/st35.jpg',
+        image: './images/st35.jpg',
 	 marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -935,7 +935,7 @@
 	 {
         name: 'shubham bendsure',
         Roll_No: '17136',
-        image: 'file:///home/kunal/Downloads/st36.jpg',
+        image: './images/st36.jpg',
 	marks: [
                  {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
                  {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
@@ -956,7 +956,7 @@
 	  {
          name: 'nikhil jadhav',
          Roll_No: '17137',
-	 image: 'file:///home/kunal/Downloads/st37.jpg',
+	 image: './images/st37.jpg',
 	  marks:[
                 {x: '2014-06-11', y: 70, group:0,label: lbl[0]},
                 {x: '2014-06-13', y: 60, group:0,label: lbl[1]},
@@ -982,7 +982,7 @@
 	  {
         name: 'ratnesh mether',
         Roll_No: '17138',
-        image: 'file:///home/kunal/Downloads/st38.jpg',
+        image: './images/st38.jpg',
  	marks:[
                 {x: '2014-06-11', y: 80, group:0,label: lbl[2]},
                 {x: '2014-06-13', y: 55, group:0,label: lbl[6]},
@@ -1005,7 +1005,7 @@
 	  {
         name:'sharad jadhav',
         Roll_No: '17139',
-        image: 'file:///home/kunal/Downloads/st39.jpg',
+        image: './images/st39.jpg',
          marks: [
                  {x: '2014-06-11', y: 55, group:2,label: lbl[6]},
                  {x: '2014-06-13', y: 75, group:3,label: lbl[7]},
@@ -1026,7 +1026,7 @@
 	  {
         name: 'nihal shardul',
         Roll_No: '17140',
-        image: 'file:///home/kunal/Downloads/st40.jpg',
+        image: './images/st40.jpg',
          marks:[
                 {x: '2014-06-11', y: 90, group:0,label: lbl[4]},
                 {x: '2014-06-13', y: 70, group:0,label: lbl[0]},
